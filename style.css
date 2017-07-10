@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 0.22rem; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 62.5%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+a:active, input, button {
+  border: 0;
+  outline: none; }
+
+input {
+  -webkit-appearance: none; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 1rem;
+  background: red;
+  display: flex; }
+  header a {
+    flex: 1;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+    font-size: 0.32rem; }
+  header a:nth-child(3) {
+    text-align: right;
+    padding-right: 0.4rem; }
+
+.main {
+  flex: 1;
+  overflow-y: scroll;
+  background: #f0f0f0; }
+  .main .box {
+    width: 100%;
+    height: 3.2rem; }
+    .main .box .in {
+      width: 100%;
+      height: 100%; }
+      .main .box .in .eve {
+        width: 100%;
+        height: 100%; }
+        .main .box .in .eve img {
+          width: 100%;
+          height: 100%; }
+  .main .show h1 {
+    height: 1rem;
+    border-bottom: 1px solid #ccc; }
+    .main .show h1 span {
+      display: inline-block;
+      height: 0.6rem;
+      margin-top: 0.15rem;
+      margin-left: 0.3rem;
+      border-left: 5px solid red;
+      font-size: 0.4rem;
+      text-indent: 0.3rem; }
+  .main .show .two {
+    margin-top: 0.3rem;
+    border-top: 1px solid #ccc; }
+  .main .show .list {
+    display: flex; }
+    .main .show .list dl {
+      flex: 1;
+      border-right: 1px solid #ccc;
+      text-align: center; }
+      .main .show .list dl dt {
+        width: 100%;
+        height: 1.4rem;
+        line-height: 1.4rem; }
+        .main .show .list dl dt i {
+          font-size: 0.7rem;
+          color: orange; }
+      .main .show .list dl dd {
+        border-bottom: 1px solid #ccc;
+        height: 0.4rem; }
+    .main .show .list dl:nth-child(2) dt i {
+      color: skyblue; }
+    .main .show .list dl:nth-child(4) dt i {
+      color: limegreen; }
+
+footer {
+  display: flex; }
+  footer dl {
+    flex: 1;
+    text-align: center; }
+    footer dl dt {
+      color: red; }
+    footer dl dd {
+      color: #666; }
+  footer .hua dd {
+    color: red; }
+
+/*# sourceMappingURL=style.css.map */
